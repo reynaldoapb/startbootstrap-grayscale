@@ -131,7 +131,6 @@ a:focus {
   -o-background-size: cover;
 }
 .intro .intro-body {
-  display: table-cell;
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
@@ -220,15 +219,15 @@ a:focus {
   padding-top: 100px;
 }
 .download-section {
-  width: 100%;
-  padding: 50px 0;
-  color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+    width: 100%;
+    padding: 50px 0;
+    color: black;
+    /* background: url(../img/downloads-bg.jpg) no-repeat center center scroll; */
+    background-color: #f9d900;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 #map {
   width: 100%;
@@ -240,7 +239,8 @@ a:focus {
     padding-top: 250px;
   }
   .download-section {
-    padding: 100px 0;
+    padding: 0 0;
+    margin-bottom: 40px;
   }
   #map {
     height: 400px;
@@ -288,6 +288,7 @@ ul.banner-social-buttons {
 }
 footer {
   padding: 50px 0;
+  background:black;
 }
 footer p {
   margin: 0;
